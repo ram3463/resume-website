@@ -1,0 +1,13 @@
+@import url("contacts/navbar.css");
+@import url("contacts/details.css");
+
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  z-index: -2;
+}

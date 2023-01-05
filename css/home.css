@@ -1,0 +1,16 @@
+@import url("./home/navbar.css");
+@import url("./home/introduction.css");
+@import url("./home/objective.css");
+@import url("./home/grants.css");
+
+* {
+  scroll-behavior: smooth;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  z-index: -2;
+}

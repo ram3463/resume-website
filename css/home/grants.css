@@ -1,0 +1,62 @@
+#career-grants-section {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 6rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.career-grants-section-title {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: -1rem;
+  font-weight: 500;
+  font-size: 5rem;
+  cursor: default;
+}
+
+.grants-container {
+  background-color: #033a46;
+  background-image: linear-gradient(45deg, #030346 20%, #9d0e45 100%);
+  transition: translate 450ms;
+  grid-template-columns: auto;
+  justify-content: center;
+  box-shadow: 0 0 10px;
+  align-items: center;
+  border-radius: 10px;
+  display: grid;
+  padding: 2rem;
+  gap: 0.8rem;
+}
+
+.grants-divider {
+  border-bottom: 2px solid #ffffff44;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+.grants-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  cursor: default;
+  color: #fff;
+}
+
+.grants-description {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 1.25rem;
+  font-weight: 200;
+  cursor: default;
+  color: #fff;
+}
+
+/*---------------------------------------*/
+/*------------- TRANSITIONS -------------*/
+/*---------------------------------------*/
+
+.grants-container:hover {
+  translate: 0 -10px;
+}

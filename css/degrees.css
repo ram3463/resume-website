@@ -1,0 +1,13 @@
+@import url("./degrees/navbar.css");
+@import url("./degrees/profession.css");
+
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  z-index: -2;
+}

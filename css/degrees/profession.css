@@ -1,0 +1,99 @@
+/*------------------------------------------------------------*/
+/*---------------------- DEGREES STYlES ----------------------*/
+/*------------------------------------------------------------*/
+
+#degree-section {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 10rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.degree-section-title {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: -1.5rem;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 6rem;
+  cursor: default;
+}
+
+.degree-divider {
+  border-bottom: 2.5px solid #ffffff2e;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+/*-------------------------------------------*/
+/*---------------- CONTAINER ----------------*/
+/*-------------------------------------------*/
+
+.degree-container {
+  background-color: #033a46;
+  background-image: linear-gradient(45deg, #030346 20%, #9d0e45 100%);
+  transition: box-shadow 450ms, translate 450ms;
+  grid-template-columns: auto;
+  justify-content: stretch;
+  align-items: center;
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+  padding: 2rem 2rem;
+  cursor: default;
+  display: grid;
+  gap: 1rem;
+}
+
+.degree-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.degree-info-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.25rem 0;
+  display: grid;
+}
+
+.degree-location {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.degree-duration {
+  font-family: "Poppins", sans-serif;
+  width: fit-content;
+  color: #e0e0e0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.degree-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+/*-------------------------------------------*/
+/*--------------- TRANSITIONS ---------------*/
+/*-------------------------------------------*/
+
+.degree-container:hover {
+  box-shadow: 0 6px 15px;
+  translate: 0 -10px;
+}
+
+/*--------------------------------------------------------*/
+/*---------------------- END OF CSS ----------------------*/
+/*--------------------------------------------------------*/

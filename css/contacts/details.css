@@ -1,0 +1,81 @@
+#contacts-section {
+  grid-template-columns: auto;
+  justify-content: center;
+  padding: 5rem 0 0 0;
+  align-items: center;
+  display: grid;
+}
+
+.contact-divider {
+  border-bottom: 2px solid #ffffff2d;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+.contacts-container {
+  background-color: #033a46;
+  background-image: linear-gradient(19deg, #030346 0%, #9d0e45 100%);
+  transition: translate 450ms;
+  grid-template-columns: auto;
+  justify-content: center;
+  box-shadow: 0 0 20px;
+  align-items: center;
+  border-radius: 10px;
+  cursor: default;
+  padding: 3rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.contacts-info-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.contact-email {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.contact-number {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.contact-address {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: #fff;
+}
+
+.contact-link {
+  transition: background-color 450ms;
+  background-color: #be0039;
+  padding: 0.5rem 2rem;
+  border-radius: 40px;
+  width: fit-content;
+}
+
+.contact-link h1 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.contact-link:hover {
+  background-color: #8b002a;
+}
+
+.contacts-container:hover {
+  translate: 0 -10px;
+}
