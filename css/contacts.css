@@ -1,5 +1,5 @@
-@import url("contacts/navbar.css");
-@import url("contacts/details.css");
+@import url("./contacts/navbar.css");
+@import url("./contacts/details.css");
 
 * {
   text-decoration: none;
